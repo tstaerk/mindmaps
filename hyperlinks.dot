@@ -1,0 +1,9 @@
+digraph "Wikimap" {
+  "public" [href="www.staerk.de"]
+  "cloud" -> "public" [arrowhead=none, href="www.staerk.de"]
+  "cloud" -> "private" [arrowhead=none]
+  "cloud" -> "data" [arrowhead=none]
+  "cloud" -> "virtual machines" [arrowhead=none]
+  "data" -> "ownCloud" [arrowhead=none]
+  "public" -> "ownCloud" [arrowhead=none]
+}
